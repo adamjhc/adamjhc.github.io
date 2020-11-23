@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adam Cox</title>
-    <link>http://adamjhcox.me/</link>
+    <link>https://adamjhcox.me/</link>
     <description>Recent content on Adam Cox</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 23 Nov 2020 15:19:08 +0000</lastBuildDate><atom:link href="http://adamjhcox.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Nov 2020 15:19:08 +0000</lastBuildDate><atom:link href="https://adamjhcox.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://adamjhcox.me/posts/my-first-post/</link>
+      <link>https://adamjhcox.me/posts/my-first-post/</link>
       <pubDate>Mon, 09 Nov 2020 14:06:34 +0000</pubDate>
       
-      <guid>http://adamjhcox.me/posts/my-first-post/</guid>
+      <guid>https://adamjhcox.me/posts/my-first-post/</guid>
       <description>Hi! </description>
     </item>
     
     <item>
       <title>My Second Post</title>
-      <link>http://adamjhcox.me/posts/my-second-post/</link>
+      <link>https://adamjhcox.me/posts/my-second-post/</link>
       <pubDate>Mon, 23 Nov 2020 15:19:08 +0000</pubDate>
       
-      <guid>http://adamjhcox.me/posts/my-second-post/</guid>
+      <guid>https://adamjhcox.me/posts/my-second-post/</guid>
       <description>Hi 2 </description>
     </item>
     
     <item>
       <title>Archive</title>
-      <link>http://adamjhcox.me/archives/</link>
+      <link>https://adamjhcox.me/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://adamjhcox.me/archives/</guid>
+      <guid>https://adamjhcox.me/archives/</guid>
       <description>archives</description>
     </item>
     
