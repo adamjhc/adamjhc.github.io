@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adam Cox</title>
+    <link>http://adamjhcox.me/</link>
+    <description>Recent content on Adam Cox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 09 Nov 2020 14:06:34 +0000</lastBuildDate><atom:link href="http://adamjhcox.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://adamjhcox.me/posts/my-first-post/</link>
+      <pubDate>Mon, 09 Nov 2020 14:06:34 +0000</pubDate>
+      
+      <guid>http://adamjhcox.me/posts/my-first-post/</guid>
+      <description>Hi! </description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>http://adamjhcox.me/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://adamjhcox.me/archives/</guid>
+      <description>archives</description>
+    </item>
+    
+  </channel>
+</rss>
