@@ -3,38 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://adamjhcox.me/posts/my-first-post/</loc>
-    <lastmod>2020-11-09T14:06:34+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adamjhcox.me/posts/2020-11-24_test-post/</loc>
-    <lastmod>2020-11-24T11:27:20+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://adamjhcox.me/</loc>
-    <lastmod>2020-11-24T11:27:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adamjhcox.me/posts/</loc>
-    <lastmod>2020-11-24T11:27:20+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adamjhcox.me/tags/first/</loc>
-    <lastmod>2020-11-23T15:19:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adamjhcox.me/posts/my-second-post/</loc>
-    <lastmod>2020-11-23T15:19:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://adamjhcox.me/tags/</loc>
-    <lastmod>2020-11-23T15:19:08+00:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +12,10 @@
   
   <url>
     <loc>https://adamjhcox.me/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adamjhcox.me/tags/</loc>
   </url>
   
 </urlset>

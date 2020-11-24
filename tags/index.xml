@@ -5,16 +5,6 @@
     <link>https://adamjhcox.me/tags/</link>
     <description>Recent content in Tags on Adam Cox</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 23 Nov 2020 15:19:08 +0000</lastBuildDate><atom:link href="https://adamjhcox.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>first</title>
-      <link>https://adamjhcox.me/tags/first/</link>
-      <pubDate>Mon, 23 Nov 2020 15:19:08 +0000</pubDate>
-      
-      <guid>https://adamjhcox.me/tags/first/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-gb</language><atom:link href="https://adamjhcox.me/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
