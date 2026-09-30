@@ -1,8 +1,228 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Adam Cox</title><meta name=keywords content><meta name=description content="Software Engineer"><meta name=author content="me"><link rel=canonical href=https://adamjhcox.me/><link href=https://adamjhcox.me/assets/css/stylesheet.min.08d6f2005b6ce4ed10207916c0411c66e66f2201e3f7a56e8fb2ccbc4a8b259c.css integrity="sha256-CNbyAFts5O0QIHkWwEEcZuZvIgHj96Vuj7LMvEqLJZw=" rel="preload stylesheet" as=style><link rel=icon href=https://adamjhcox.me/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://adamjhcox.me/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://adamjhcox.me/favicon-32x32.png><link rel=apple-touch-icon href=https://adamjhcox.me/apple-touch-icon.png><link rel=mask-icon href=https://adamjhcox.me/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.78.2"><link rel=alternate type=application/rss+xml href=https://adamjhcox.me/index.xml><meta property="og:title" content="Adam Cox"><meta property="og:description" content="Software Engineer"><meta property="og:type" content="website"><meta property="og:url" content="https://adamjhcox.me/"><meta property="og:site_name" content="Adam Cox"><meta name=twitter:card content="summary"><meta name=twitter:title content="Adam Cox"><meta name=twitter:description content="Software Engineer"><script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"Adam Cox","url":"https://adamjhcox.me/","description":"Software Engineer","thumbnailUrl":"https://adamjhcox.me/favicon.ico","sameAs":["https://github.com/adamjhc","https://stackoverflow.com/users/12104057/adamjhc","https://linkedin.com","https://hackerrank.com","https://sourcerer.io/adamjhc","steampowered.com/xacehd"]}</script></head><body class="list home" id=top><script>if(localStorage.getItem("pref-theme")==="dark"){document.body.classList.add('dark');}else if(localStorage.getItem("pref-theme")==="light"){document.body.classList.remove('dark')}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.body.classList.add('dark');}</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://adamjhcox.me/ accesskey=h>Adam Cox</a>
-<span class=logo-switches><span class=theme-toggle><a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></span></div><ul class=menu id=menu onscroll=menu_on_scroll()></ul></nav></header><main class=main></main><footer class=footer><span>&copy; 2020 <a href=https://adamjhcox.me/>Adam Cox</a></span>
-<span>&#183;</span>
-<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
-<span>&#183;</span>
-<span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top" accesskey=g><button class=top-link id=top-link type=button><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg></button></a>
-<script>window.onload=function(){if(localStorage.getItem("menu-scroll-position")){document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position");}}
-document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener("click",function(e){e.preventDefault();var id=this.getAttribute("href").substr(1);document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({behavior:"smooth"});});});var mybutton=document.getElementById("top-link");window.onscroll=function(){if(document.body.scrollTop>800||document.documentElement.scrollTop>800){mybutton.style.visibility="visible";mybutton.style.opacity="1";}else{mybutton.style.visibility="hidden";mybutton.style.opacity="0";}};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft);}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{if(document.body.className.includes("dark")){document.body.classList.remove('dark');localStorage.setItem("pref-theme",'light');}else{document.body.classList.add('dark');localStorage.setItem("pref-theme",'dark');}})</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adam Cox</title>
+  <meta name="description" content="Adam Cox, software engineer.">
+  <meta property="og:title" content="Adam Cox">
+  <meta property="og:description" content="Software Engineer">
+  <meta name="theme-color" content="#EAF2EC" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15271F" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231F3A2E'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%2386C394'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500&family=Young+Serif&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #EAF2EC;
+      --ink: #1F3A2E;
+      --muted: #52705F;
+      --rule: #CFE0D4;
+      --fodo: #86C394;
+      --hem: #C9BCEB;
+      --pennant: #F0CF72;
+      --focus: #2F7A52;
+
+      --serif: "Young Serif", Georgia, serif;
+      --sans: "Figtree", system-ui, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #15271F;
+        --ink: #E4EFE7;
+        --muted: #9DB8A7;
+        --rule: #28432F;
+        --fodo: #6FAF7E;
+        --hem: #A796D9;
+        --pennant: #D9B55A;
+        --focus: #9FD8AE;
+      }
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 1.125rem;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 34rem;
+      padding: clamp(3.5rem, 14vh, 9rem) 1rem 4rem;
+    }
+
+    @media (min-width: 48rem) {
+      main { margin-left: clamp(0rem, 12vw, 11rem); padding-inline: 2rem; }
+    }
+
+    h1 {
+      margin: 0 0 1.5rem;
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(3rem, 12vw, 5.25rem);
+      line-height: 0.95;
+      letter-spacing: -0.02em;
+    }
+
+    .bio {
+      margin: 0 0 1rem;
+      max-width: 30rem;
+      color: var(--muted);
+    }
+
+    .elsewhere {
+      display: flex;
+      gap: 1.5rem;
+      margin: 0 0 3.5rem;
+      font-weight: 500;
+    }
+
+    .elsewhere a {
+      color: var(--ink);
+      text-decoration: underline;
+      text-decoration-color: var(--rule);
+      text-decoration-thickness: 2px;
+      text-underline-offset: 0.25em;
+      transition: text-decoration-color 150ms ease;
+    }
+
+    .elsewhere a:hover { text-decoration-color: var(--muted); }
+
+    h2 {
+      margin: 0 0 0.25rem;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: grid;
+      grid-template-columns: 2rem 1fr;
+      column-gap: 1rem;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    li:last-child { border-bottom: 0; }
+
+    .glyph {
+      width: 2rem;
+      height: 2rem;
+      margin-top: 0.1rem;
+      overflow: visible;
+    }
+
+    .glyph .move { transition: transform 300ms cubic-bezier(.3, 1.6, .5, 1); transform-origin: center; transform-box: fill-box; }
+
+    li:hover .glyph .move,
+    li:focus-within .glyph .move { transform: var(--nudge); }
+
+    .fodo    { --tone: var(--fodo);    --nudge: translateY(-3px); }
+    .hem     { --tone: var(--hem);     --nudge: scaleX(1.12); }
+    .pennant { --tone: var(--pennant); --nudge: skewY(-8deg); }
+
+    .glyph .fill { fill: var(--tone); }
+
+    h3 {
+      margin: 0;
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.3;
+    }
+
+    h3 a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--tone);
+      text-decoration-thickness: 0.18em;
+      text-underline-offset: 0.18em;
+      transition: text-decoration-thickness 150ms ease;
+    }
+
+    h3 a:hover { text-decoration-thickness: 0.3em; }
+
+    a:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 4px;
+      border-radius: 3px;
+    }
+
+    li p {
+      grid-column: 2;
+      margin: 0.25rem 0 0;
+      color: var(--muted);
+      font-size: 1.0625rem;
+    }
+
+    @media (max-width: 30rem) {
+      body { font-size: 1.0625rem; }
+      li { grid-template-columns: 1.75rem 1fr; column-gap: 0.875rem; }
+      .glyph { width: 1.75rem; height: 1.75rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Adam Cox</h1>
+    <p class="bio">Software Engineer</p>
+    <p class="elsewhere">
+      <a href="https://github.com/adamjhc">GitHub</a>
+      <a href="https://www.linkedin.com/in/adamjhcox">LinkedIn</a>
+    </p>
+
+    <h2>Building</h2>
+    <ul>
+      <li class="fodo">
+        <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true">
+          <g class="move">
+            <circle class="fill" cx="16" cy="18" r="10.5"/>
+            <path d="M16 7.5c1-2.5 3.5-3.5 6-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".55"/>
+          </g>
+        </svg>
+        <h3><a href="https://fodo-site.fodo-web.workers.dev">fodo</a></h3>
+        <p>A grocery list for iPhone that sorts items into aisles and remembers the order you walk your shop.</p>
+      </li>
+      <li class="hem">
+        <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true">
+          <rect class="fill move" x="3" y="9" width="26" height="15" rx="7.5"/>
+        </svg>
+        <h3><a href="https://adamjhc.github.io/hem/">hem</a></h3>
+        <p>A tiny to-do list that lives in the macOS menu bar.</p>
+      </li>
+      <li class="pennant">
+        <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M7 4v25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".55"/>
+          <path class="fill move" d="M8 5l20 6.5L8 18z" style="transform-origin: left center"/>
+        </svg>
+        <h3><a href="https://github.com/adamjhc/pennant">pennant</a></h3>
+        <p>A macOS menu bar app that sets your Slack status from your calendar.</p>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
