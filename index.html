@@ -127,6 +127,21 @@
 
     li:last-child { border-bottom: 0; }
 
+    @media (min-width: 77rem) {
+      main { max-width: 67rem; }
+
+      ul {
+        display: grid;
+        grid-template-columns: repeat(2, 30rem);
+        column-gap: 3rem;
+      }
+
+      li { align-content: start; }
+
+      li:nth-child(odd):nth-last-child(-n+2),
+      li:nth-child(odd):nth-last-child(-n+2) ~ li { border-bottom: 0; }
+    }
+
     .glyph {
       width: 2rem;
       height: 2rem;
