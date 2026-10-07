@@ -23,6 +23,7 @@
       --hem: #C9BCEB;
       --pennant: #F0CF72;
       --reach: #8CC3D9;
+      --segue: #EFAA8E;
       --focus: #2F7A52;
 
       --serif: "Young Serif", Georgia, serif;
@@ -39,6 +40,7 @@
         --hem: #A796D9;
         --pennant: #D9B55A;
         --reach: #6BA6BE;
+        --segue: #D18A6D;
         --focus: #9FD8AE;
       }
     }
@@ -158,6 +160,7 @@
     .hem     { --tone: var(--hem);     --nudge: scaleX(1.12); }
     .pennant { --tone: var(--pennant); --nudge: skewY(-8deg); }
     .reach   { --tone: var(--reach);   --nudge: rotate(-7deg); }
+    .segue   { --tone: var(--segue);   --nudge: rotate(50deg); }
 
     .glyph .fill { fill: var(--tone); }
 
@@ -247,6 +250,15 @@
         </svg>
         <h3><a href="https://greenwich-reach-watch.adamjhc.workers.dev" target="_blank" rel="noopener noreferrer">Greenwich Reach Watch</a></h3>
         <p>Live Thames traffic at Greenwich, and what's moored at the Ship Tier.</p>
+      </li>
+      <li class="segue">
+        <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M13.5 3.5h5M16 3.5v3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".55"/>
+          <circle class="fill" cx="16" cy="18" r="11"/>
+          <path class="move" d="M16 18v-6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" style="transform-origin: center bottom"/>
+        </svg>
+        <h3><a href="/segue/" target="_blank" rel="noopener noreferrer">segue</a></h3>
+        <p>A gentle timer for moving between tasks: wind down, rest, then start small.</p>
       </li>
     </ul>
   </main>
