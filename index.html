@@ -24,6 +24,7 @@
       --pennant: #F0CF72;
       --reach: #8CC3D9;
       --segue: #EFAA8E;
+      --veer: #EBA3B8;
       --focus: #2F7A52;
 
       --serif: "Young Serif", Georgia, serif;
@@ -41,6 +42,7 @@
         --pennant: #D9B55A;
         --reach: #6BA6BE;
         --segue: #D18A6D;
+        --veer: #CC8199;
         --focus: #9FD8AE;
       }
     }
@@ -161,8 +163,10 @@
     .pennant { --tone: var(--pennant); --nudge: skewY(-8deg); }
     .reach   { --tone: var(--reach);   --nudge: rotate(-7deg); }
     .segue   { --tone: var(--segue);   --nudge: rotate(50deg); }
+    .veer    { --tone: var(--veer);    --nudge: rotate(10deg); }
 
     .glyph .fill { fill: var(--tone); }
+    .glyph .line { stroke: var(--tone); }
 
     h3 {
       margin: 0;
@@ -218,6 +222,17 @@
 
     <h2>Building</h2>
     <ul>
+      <li class="veer">
+        <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M13 26.5L6.5 5" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+          <g class="move" style="transform-origin: left bottom">
+            <path class="line" d="M13 26.5Q14.5 13 23 8.6" fill="none" stroke-width="4" stroke-linecap="round"/>
+            <path class="fill" d="M28.5 5.2L24.9 12 20.9 5.6z" style="stroke: var(--tone)" stroke-width="1.5" stroke-linejoin="round"/>
+          </g>
+        </svg>
+        <h3><a href="https://veer-site.adamjhc.workers.dev" target="_blank" rel="noopener noreferrer">veer</a></h3>
+        <p>Send a bike route from your iPhone to your Garmin, mid-ride.</p>
+      </li>
       <li class="fodo">
         <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true">
           <g class="move">
